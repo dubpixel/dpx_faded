@@ -1,0 +1,3425 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "730caac5-d131-4da1-a76c-40d992583383")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x08_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_Pin"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DPX_CONTROL:Touch_Fader_Motorized"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.842 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -0.0427 0.2485 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.0427 0.2485 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.0427 0.2485 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.0427 0.2485 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Touch_Fader_Motorized_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy 0 -4.953)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.953) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -1.2192 -6.7056 900)
+					(effects
+						(font
+							(size 1.4224 1.4224)
+						)
+					)
+				)
+			)
+			(symbol "Touch_Fader_Motorized_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "Wiper"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Touch_Fader_Motorized_2_1"
+				(pin output line
+					(at 0 0 0)
+					(length 2.54)
+					(name "Touch"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Touch_Fader_Motorized_3_1"
+				(circle
+					(center -0.0064 0.0904)
+					(radius 3.2129)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -0.0437 5.8559 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -0.0579 -5.8461 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Touch_Fader_Motorized_4_1"
+				(pin input line
+					(at 0 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 180)
+					(length 2.54)
+					(name "MNT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 30.48 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "325670d6-589b-4f26-a155-dd0e9fa43eaa")
+	)
+	(junction
+		(at 48.26 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a9e1cda-1061-4ce5-bff4-b01c094235ef")
+	)
+	(junction
+		(at 48.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60ed3ffb-b823-4a0f-8080-78b4de4a428b")
+	)
+	(junction
+		(at 24.13 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7699b726-c1f6-4720-9000-7ab03cd4141f")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a6b00c-c541-4e49-9bf9-090182bc1b42")
+	)
+	(junction
+		(at 68.58 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87ac9a8a-ec72-4f37-a0dc-1af4d2ffae17")
+	)
+	(junction
+		(at 30.48 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9baf4076-0bc0-49e1-a9b1-4709922e5674")
+	)
+	(junction
+		(at 68.58 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0162f5f-0217-40c4-938d-7fb11c26becf")
+	)
+	(junction
+		(at 48.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1524aad-0c34-4701-9734-48ef15392791")
+	)
+	(wire
+		(pts
+			(xy 68.5221 57.9161) (xy 63.1741 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012d493b-87cd-4da2-9791-87fd64a76425")
+	)
+	(wire
+		(pts
+			(xy 88.8563 46.2141) (xy 82.8368 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1189c699-ff0a-4294-811d-d83f31f8c96e")
+	)
+	(wire
+		(pts
+			(xy 30.48 59.69) (xy 17.8634 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217c76dc-5a83-46a7-9b11-8d66f7d680f1")
+	)
+	(wire
+		(pts
+			(xy 48.2163 46.2141) (xy 44.45 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c53bcc4-fd97-438b-833e-0f3e9f1ea425")
+	)
+	(wire
+		(pts
+			(xy 25.3596 57.9161) (xy 25.3596 58.1737)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309820ba-f75b-40f8-b6cd-a23101cada16")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 88.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9de087-0e82-495f-8e1b-2944730ca903")
+	)
+	(wire
+		(pts
+			(xy 24.13 41.91) (xy 30.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47275988-37f6-4867-a525-f32f334f6132")
+	)
+	(wire
+		(pts
+			(xy 30.4221 57.9161) (xy 25.3596 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb70a12-dcd3-4d40-b395-dfa46f998592")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c915818-d689-45b4-975a-162af52c0bcf")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 68.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db08260-8739-4210-900b-37866421dbc1")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 82.8368 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5deb2ac6-92cd-4375-afcf-66ae2d45246f")
+	)
+	(wire
+		(pts
+			(xy 63.1741 57.5339) (xy 63.1741 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600bb213-985c-4db7-ae0e-7a2d5213f32e")
+	)
+	(wire
+		(pts
+			(xy 30.48 74.93) (xy 48.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630d97b7-8a22-425b-a85a-0239a991cdd9")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664af0df-027a-429b-bb0f-f989b97e3c56")
+	)
+	(wire
+		(pts
+			(xy 48.26 74.93) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ec3aaf-897b-48d8-87e4-ad9d40263a29")
+	)
+	(wire
+		(pts
+			(xy 24.13 41.91) (xy 24.13 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7018885c-eb6c-4911-b29a-ae9ed3c39855")
+	)
+	(wire
+		(pts
+			(xy 64.0699 45.8888) (xy 64.0699 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759f892e-c03a-489f-9eef-9dbf3b432c54")
+	)
+	(wire
+		(pts
+			(xy 24.13 44.45) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78884311-a82d-48f7-8d16-6f5963eacb09")
+	)
+	(wire
+		(pts
+			(xy 82.0528 57.8985) (xy 82.0528 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c193b37-776f-46a8-9ae0-5ba7b9645fd7")
+	)
+	(wire
+		(pts
+			(xy 30.4363 46.2141) (xy 25.4 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d05ec52-c3b9-4889-acf6-68b71db327e4")
+	)
+	(wire
+		(pts
+			(xy 44.2989 57.7258) (xy 44.2989 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814373fb-15f7-47ff-99f1-6739a75781eb")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 48.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90417b43-87a1-4089-8ead-ae4d8fa58fe5")
+	)
+	(wire
+		(pts
+			(xy 48.2021 57.9161) (xy 44.2989 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0460c34-d9eb-4a57-8599-6a87fcb29159")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ae7a27-42a6-47dd-8d41-52abe29fd435")
+	)
+	(wire
+		(pts
+			(xy 16.51 41.91) (xy 24.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e273e0-f6da-4b36-a0af-f8446239acba")
+	)
+	(wire
+		(pts
+			(xy 17.8634 59.6732) (xy 17.8634 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c325f257-ed55-4552-b7bb-73f92dea2c74")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 68.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87a6039-a9a2-445e-8d45-534c1fdd9dea")
+	)
+	(wire
+		(pts
+			(xy 68.5363 46.2141) (xy 64.0699 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ff48b7-7ead-4b00-aebf-9f2241c0ef7c")
+	)
+	(wire
+		(pts
+			(xy 25.4 45.72) (xy 25.4 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3864018-b9b6-4dd6-8489-b7c00fec2f70")
+	)
+	(wire
+		(pts
+			(xy 17.78 74.93) (xy 30.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e403b44b-29c3-4997-a2cc-5fbe8d269198")
+	)
+	(wire
+		(pts
+			(xy 30.48 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5aa1eb-ea99-432c-b0bd-2fefcf5d4b6a")
+	)
+	(wire
+		(pts
+			(xy 44.45 45.72) (xy 44.45 46.2141)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b0cb93-b3ad-4e1a-a044-450ece50ad76")
+	)
+	(wire
+		(pts
+			(xy 68.58 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48dbc66-3462-45ff-baac-64e24a48af14")
+	)
+	(wire
+		(pts
+			(xy 88.8421 57.9161) (xy 82.0528 57.9161)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5bdbc8-29f6-4aee-9e84-45b0a20c77fd")
+	)
+	(label "M3_A"
+		(at 64.0699 45.8888 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03b81213-28dd-428e-a94f-e9533f299877")
+	)
+	(label "M2_B"
+		(at 116.84 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07eaecd5-0712-474b-ad49-a5a4dc622076")
+	)
+	(label "T2"
+		(at 115.57 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10fd077f-6947-48dd-8491-2d7180080d9c")
+	)
+	(label "P4"
+		(at 115.57 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1836bd21-cb92-4670-8bae-3203c3fab79c")
+	)
+	(label "M3_B"
+		(at 63.1741 57.5339 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a689e6f-5ae9-4e13-8347-378e31d14d88")
+	)
+	(label "P3"
+		(at 115.57 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23302ad3-7ef7-407d-86c6-5cfd6d729755")
+	)
+	(label "T3"
+		(at 68.58 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25c4a81d-d30b-43b4-9cef-c71cdc31bdf2")
+	)
+	(label "T1"
+		(at 115.57 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d545475-18d2-4ff6-97c5-29a441dcaa4d")
+	)
+	(label "M3_B"
+		(at 116.84 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3059152f-27a2-407b-912b-3d7e1949414a")
+	)
+	(label "M2_B"
+		(at 44.2989 57.7258 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "312ef894-9de9-4815-bf5a-f42c7d71a369")
+	)
+	(label "M3_A"
+		(at 116.84 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3549a4f1-35d4-48f2-83a8-eccccbf76814")
+	)
+	(label "M4_A"
+		(at 116.84 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b362c7e-3de6-4996-8a61-61741d8df3d9")
+	)
+	(label "T4"
+		(at 115.57 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cd375b0-2702-4db3-b866-eb0b9dba330a")
+	)
+	(label "P2"
+		(at 53.34 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cc833f9-5023-4bcf-a0b3-c961c97ca5bb")
+	)
+	(label "M1_B"
+		(at 116.84 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5083f5e1-74cc-450c-aa58-f9bff1840f3f")
+	)
+	(label "M1_B"
+		(at 25.3596 58.1737 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52bd1ef0-2926-4133-bdc8-bdbb0ea5d3e7")
+	)
+	(label "P4"
+		(at 93.98 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64624b9c-6e5e-42c4-8230-2af3b007d461")
+	)
+	(label "M4_A"
+		(at 82.55 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d11b199-6a95-4831-a233-5401a9b0c409")
+	)
+	(label "M1_A"
+		(at 116.84 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f01a20f-f97e-442b-9154-46fa1ca3f7be")
+	)
+	(label "M2_A"
+		(at 44.45 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7123e1be-7e7e-4688-b672-871e3b5d2bd7")
+	)
+	(label "M4_B"
+		(at 116.84 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fc58b06-7385-4766-9b96-bfe15c4d871b")
+	)
+	(label "M4_B"
+		(at 82.0528 57.8985 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a173f8a0-dbab-4b11-8f12-b5595df33e4d")
+	)
+	(label "T3"
+		(at 115.57 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac336bca-6dbc-4ba0-85df-5040dfc68e1e")
+	)
+	(label "P1"
+		(at 35.56 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad22eea2-033b-4888-b81f-304404e7f475")
+	)
+	(label "T4"
+		(at 88.9 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b170aeeb-77a3-434f-a0b1-3f542b3eeb04")
+	)
+	(label "M2_A"
+		(at 116.84 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e8d1ca-864a-4bd9-8158-32fbc90ae728")
+	)
+	(label "T1"
+		(at 30.48 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4415e2b-5df8-4478-ba07-466037c42d98")
+	)
+	(label "P1"
+		(at 115.57 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5a10fcc-af68-47e6-aa42-528333ecf217")
+	)
+	(label "T2"
+		(at 48.26 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb05312e-0cbf-468f-aaf2-3df9767939d1")
+	)
+	(label "M1_A"
+		(at 25.4 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f60e6927-8738-42c1-99ac-ae1b127823ae")
+	)
+	(label "P2"
+		(at 115.57 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6a722df-a874-4e8c-b7a4-19415a706d66")
+	)
+	(label "P3"
+		(at 73.66 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe1590c4-6828-4966-9ee5-fc5014b7cb65")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 22.86 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afd7f84d-ebb0-4d94-adb3-d27407f6e239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0043 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 17.8634 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edbb07c1-b30b-406a-8590-dd8908f2bcd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.2496 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 48.26 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0012198e-c658-4633-8c4e-6143c950d2b3")
+		(property "Reference" "U2"
+			(at 52.07 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 48.2173 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.2173 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.2173 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96cf")
+		)
+		(pin "8"
+			(uuid "b3dd115c-75d9-4761-bfcc-b8c0540512da")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b75b")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970e9")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0317")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48f6")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e0d")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b04")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 48.26 52.07 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cb134af-5097-41fa-bb18-d12862ceb59c")
+		(property "Reference" "U2"
+			(at 53.34 51.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 53.3351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 48.2173 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.2173 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.2173 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96ce")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a25")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b75a")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970e8")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0316")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48f5")
+		)
+		(pin "6"
+			(uuid "849be0ed-0896-410b-9205-f89d2123418f")
+		)
+		(pin "5"
+			(uuid "9c18d815-1941-4024-85c5-a727f0e9045e")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 88.9 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16486128-1d8a-41b3-a236-28b5f4242586")
+		(property "Reference" "U4"
+			(at 86.106 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 85.09 69.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 88.8573 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.8573 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.8573 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d1")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a28")
+		)
+		(pin "3"
+			(uuid "54c08275-8c2e-45f5-ac41-735a4c83a738")
+		)
+		(pin "2"
+			(uuid "99c00373-dfc7-4b9b-b60b-ba4a2c36441b")
+		)
+		(pin "1"
+			(uuid "e0644aa3-d5ad-426a-b454-1b1e9cd09b7d")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48f8")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e0f")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b06")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 68.58 52.07 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20900f48-44d3-4abc-a7ca-24cd51b16257")
+		(property "Reference" "U3"
+			(at 73.66 51.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 73.66 53.3351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 68.5373 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.5373 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.5373 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d0")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a26")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b75c")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970ea")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0318")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48f7")
+		)
+		(pin "6"
+			(uuid "93945f61-59e0-4b5a-9404-1fd9cab330dd")
+		)
+		(pin "5"
+			(uuid "80b1d054-abc8-4bae-b559-7a5a36d586e0")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 88.9 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2482ff53-03f8-4f5a-b2fc-174f57646cf2")
+		(property "Reference" "U4"
+			(at 92.71 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 88.8573 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.8573 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.8573 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d2")
+		)
+		(pin "8"
+			(uuid "4861b598-1fa6-45c1-a7af-ae382305bfb0")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b75d")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970eb")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0319")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48f9")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e0e")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b05")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 16.51 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bd60c00-e9aa-44f1-bf4e-26278532c562")
+		(property "Reference" "#PWR01"
+			(at 16.51 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 16.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7540b178-f95f-4338-b326-130d771d42cb")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 68.58 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c3e9ab7-a822-4fe6-b486-3b02c4dc53ad")
+		(property "Reference" "U3"
+			(at 72.39 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 68.5373 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.5373 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.5373 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d3")
+		)
+		(pin "8"
+			(uuid "c89072ba-dc7d-41c6-92b9-6fe5a44531b7")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b75e")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970ec")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef031a")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48fa")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e10")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b07")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 48.26 41.91 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c7d05a-4a17-4c5b-8813-a7b99963f3cf")
+		(property "Reference" "U2"
+			(at 54.864 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 48.3027 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.3027 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.3027 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "512e29f7-2cbe-4cbd-8bb1-63882f86a25b")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a27")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b75f")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970ed")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef031b")
+		)
+		(pin "4"
+			(uuid "13f98fe4-c29a-4e5e-a269-f5b946e8cc70")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e11")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b08")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 68.58 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a0c17f2-8c4f-4a0d-bcac-6113994c7c98")
+		(property "Reference" "U3"
+			(at 65.278 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 64.77 69.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 68.5373 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.5373 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.5373 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d4")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a29")
+		)
+		(pin "3"
+			(uuid "db4e82dc-73aa-4bf3-bc70-fba8eab0983a")
+		)
+		(pin "2"
+			(uuid "008ffc3c-e6cc-4aac-a757-66483230155b")
+		)
+		(pin "1"
+			(uuid "3e6f90e8-f5b2-4a15-88a3-5437a117c860")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48fb")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e12")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b09")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "790c3a28-2467-43d7-901b-319ec60a1779")
+		(property "Reference" "#PWR02"
+			(at 17.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ca7dde-4c86-4101-9241-784d37c96b14")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 30.48 78.74 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e719acd-50c6-44f7-b846-190a5dc41468")
+		(property "Reference" "U1"
+			(at 34.29 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 30.4373 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.4373 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.4373 78.4915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d5")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a2a")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b760")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970ee")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef031c")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48fc")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e0c")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b03")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 111.76 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b048096-36c8-4b3d-a4d5-54007c966383")
+		(property "Reference" "J2"
+			(at 112.395 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 112.395 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "b07b1e46-d604-4656-a73b-7b99fbf7ee4e")
+		)
+		(pin "2"
+			(uuid "9e35b73e-f7c6-4500-a583-357a15ea744a")
+		)
+		(pin "1"
+			(uuid "7c6d5ab6-e116-4c85-b09f-e9aef01d30c1")
+		)
+		(pin "7"
+			(uuid "9675eaa3-89fd-4a64-bc8e-ecfe63ed7f73")
+		)
+		(pin "6"
+			(uuid "7598207b-6d81-40d4-b9f2-67b2c18febb0")
+		)
+		(pin "4"
+			(uuid "f0082b99-bf68-4f8f-ae7a-3fab62a653c0")
+		)
+		(pin "5"
+			(uuid "ca242d34-0ecc-4af0-9680-1ccf0f805a4e")
+		)
+		(pin "3"
+			(uuid "20598f7c-f33b-4360-a0d5-aa8aedfc8a43")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 30.48 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f30ebf-9590-4d8f-b357-f01630cea9d5")
+		(property "Reference" "U1"
+			(at 26.924 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 26.67 69.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 30.4373 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.4373 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.4373 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d6")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a2b")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b761")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970ef")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef031d")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48fd")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e13")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b0a")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a07f106-34c5-48d0-9b89-193b5e69914f")
+		(property "Reference" "#PWR03"
+			(at 22.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d87e219-bc2d-4fde-8434-cbb5abc0f41d")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 88.9 41.91 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aed6effc-1232-4b1a-9d47-5bf20baf792b")
+		(property "Reference" "U4"
+			(at 95.25 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 92.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 88.9427 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9427 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9427 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2386796a-6a18-41be-abd8-5237010ae0b7")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a2c")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b762")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970f0")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef031e")
+		)
+		(pin "4"
+			(uuid "5bc06448-59ad-4a1b-8e3d-730cf8ddc9f5")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e14")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b0b")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 88.9 52.07 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb86c04a-5af8-49d2-b703-c0c573548e31")
+		(property "Reference" "U4"
+			(at 93.98 51.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 93.98 53.3351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 88.8573 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.8573 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.8573 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d7")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a2d")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b763")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970f1")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef031f")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48fe")
+		)
+		(pin "6"
+			(uuid "5ac86ffb-450c-4ddc-8960-ab665a673b5a")
+		)
+		(pin "5"
+			(uuid "fce29c58-cded-43e3-a71c-006c5d4c6737")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 30.48 52.07 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c163068c-74d9-4ce7-93c5-ca6611572814")
+		(property "Reference" "U1"
+			(at 35.56 51.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 35.56 53.3351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 30.4373 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.4373 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.4373 51.8215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d8")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a2e")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b764")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970f2")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0320")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d48ff")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e15")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b0c")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 48.26 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3bfd434-2ed0-4daa-b645-55e4f1d17649")
+		(property "Reference" "U2"
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 69.7937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 48.2173 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.2173 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.2173 67.0615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96d9")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a2f")
+		)
+		(pin "3"
+			(uuid "fc8dbd0c-8143-47f7-8076-17463d57f9d8")
+		)
+		(pin "2"
+			(uuid "5834aafc-ea13-4f6d-8933-5d57eab58bd4")
+		)
+		(pin "1"
+			(uuid "ec0d2960-6f8d-4dc3-9efc-d5838e15f7a0")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d4900")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e16")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b0d")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 30.48 41.91 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2226dc1-3e8e-4de8-a96a-2e4dfba05adf")
+		(property "Reference" "U1"
+			(at 36.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 30.5227 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.5227 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.5227 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "34b02bce-0d4b-4b5e-bb8d-ac51221d96da")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a30")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b765")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970f3")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0321")
+		)
+		(pin "4"
+			(uuid "13006bdf-f18d-4424-90c0-5785bb2d4901")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e17")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b0e")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 110.49 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da26aa3b-4cec-41bf-80ec-9f1d3a3c5dce")
+		(property "Reference" "J1"
+			(at 111.125 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 111.125 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a03ab82d-feea-420b-984a-dac680c457aa")
+		)
+		(pin "2"
+			(uuid "6467233a-a656-4ed1-8a35-174cb655f029")
+		)
+		(pin "1"
+			(uuid "dc4df80f-49fd-4dee-a55d-9473d4f4e3b9")
+		)
+		(pin "7"
+			(uuid "3b46e2de-c5dd-424c-9f4b-8a1765962933")
+		)
+		(pin "6"
+			(uuid "056eb34e-5b24-4e77-ad4b-03bd1c71b96e")
+		)
+		(pin "4"
+			(uuid "ecb9896b-6136-4cae-9710-8f9b2bad8024")
+		)
+		(pin "5"
+			(uuid "08ceece6-7910-4df2-8926-72ef40733630")
+		)
+		(pin "3"
+			(uuid "f2ae6fdb-0bbc-4eea-b32a-de6fa9513b08")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DPX_CONTROL:Touch_Fader_Motorized")
+		(at 68.58 41.91 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec834f39-e1eb-44bc-8852-de8529a4f47f")
+		(property "Reference" "U3"
+			(at 74.676 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DPX_CONTROL:Fader_apai_SC1009M"
+			(at 68.6227 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.6227 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.6227 42.1585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "01a51694-c0e0-43e3-9cc7-cfb0005abbf3")
+		)
+		(pin "8"
+			(uuid "6d602ec9-aaab-4ede-8a48-23156d109a31")
+		)
+		(pin "3"
+			(uuid "09383249-7957-4a3e-a6b6-c1a76904b766")
+		)
+		(pin "2"
+			(uuid "f9bcb4b4-1a82-45f7-999b-d061a32970f4")
+		)
+		(pin "1"
+			(uuid "43f48350-4c8b-4a06-8b08-4f1a14ef0322")
+		)
+		(pin "4"
+			(uuid "927017f0-30f1-493d-93ee-ee5ec30b01cd")
+		)
+		(pin "6"
+			(uuid "feb4cfe3-bc67-4ab4-808e-e824a26f9e18")
+		)
+		(pin "5"
+			(uuid "5822cd65-7590-491b-9f16-19f6e4fa5b0f")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
