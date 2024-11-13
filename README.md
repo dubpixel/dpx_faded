@@ -37,21 +37,23 @@
     <img src="images/logo.png" alt="Logo" height="120">
   </a>
 
-<h3 align="center">dpx_faded </h3>
-<h3 align="center">a motorized fader breakout inspired by the FADER_4</h3>
+<h1 align="center">dpx_faded </h1>
+<h3 align="center"><i>a motorized fader breakout inspired by the FADER_4</i></h3>
 
-  <p align="center">
-    project_description
+  <p align="left">
+    ...breakout board and mounting panel for 4x behringer x32-style faders.
+    inspired by the FADER_4 from stagehacks, which is no longer produced.
     <br />
+    <div align="center"> 
     <a href="https://github.com/dubpixel/dpx_faded/tree/main/src/dpx_faded/bom"><strong>Explore the Bom »</strong></a>
-    <br />
-    <br />
-    <a href="https://dubpixel.github.io/dpx_faded/ibom/index.html">View Interactive Bom</a>
+   .
+   <a href="https://dubpixel.github.io/dpx_faded/ibom/index.html">View Interactive Bom</a>
     ·
     <a href="https://github.com/dubpixel/dpx_faded/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/dubpixel/dpx_faded/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
+    </div>
+    </p>
 </div>
 
 
@@ -85,10 +87,13 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-
-Write stuff here about the project! Description and other stuff goes here
+<details>
+<summary><h3>About The Project</h3></summary>
+breakout board and mounting panel for 4x behringer x32-style faders.inspired by the FADER_4 from stagehacks, which is no longer produced. While the maker made the firmware open source, as well as the production files - the cad files were not released in a malliable format, which doesnt allow further development of that hardware platform. (bummer). Since there is some community interest in the product, here we attempt to reverse engineer the motorized fader component of the project.
+</details>
+</br>
 www.dubpixel.tv  - i@dubpixel.tv
+</br>
 
 FRONT
 ![FRONT][product-front]
@@ -107,8 +112,8 @@ iBOM PCB Rear
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With KiCAD
-
+### Built With 
+* [![KiCad][KiCad.org]][KiCad-url]
 <!--
  * [![Next][Next.js]][Next-url]
  * [![React][React.js]][React-url]
@@ -118,6 +123,7 @@ iBOM PCB Rear
  * [![Laravel][Laravel.com]][Laravel-url]
  * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
  * [![JQuery][JQuery.com]][JQuery-url]
+ 
 -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,3 +257,5 @@ Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixe
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[KiCad.org]: https://img.shields.io/badge/KiCad-v8.0.3-blue
+[KiCad-url]: https://kicad.org 
