@@ -34,7 +34,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dubpixel/dpx_faded">
-    <img src="images/logo.png" alt="Logo" width="210" height="160">
+    <img src="images/logo.png" alt="Logo" height="120">
   </a>
 
 <h3 align="center">dpx_faded </h3>
