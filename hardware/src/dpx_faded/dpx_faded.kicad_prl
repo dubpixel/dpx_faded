@@ -102,6 +102,18 @@
           "size_x": 1440,
           "size_y": 875
         }
+      },
+      {
+        "name": "dpx_faded.kicad_pro",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 422,
+          "pos_y": 300,
+          "size_x": 720,
+          "size_y": 875
+        }
       }
     ]
   }

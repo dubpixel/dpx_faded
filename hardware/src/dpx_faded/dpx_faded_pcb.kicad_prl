@@ -78,19 +78,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "dpx_faded_pcb.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 39,
-          "pos_y": 166,
-          "size_x": 1440,
-          "size_y": 875
-        }
-      }
-    ]
+    "files": []
   }
 }

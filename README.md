@@ -34,11 +34,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/dubpixel/dpx_faded">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="210" height="160">
   </a>
 
 <h3 align="center">dpx_faded </h3>
-<h3 align="center">a quick summary of the project</h3>
+<h3 align="center">a motorized fader breakout inspired by the FADER_4</h3>
 
   <p align="center">
     project_description

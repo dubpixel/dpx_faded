@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x08_Pin,PinHeader_1x08_P2.54mm_Vertical,95.14,-32.03,90.0,top
+J2,Conn_01x08_Pin,PinHeader_1x08_P2.54mm_Vertical,70.085,-32.0,90.0,top
+U1,~,Fader_apai_SC1009M,54.07,-109.43,90.0,top
+U2,~,Fader_apai_SC1009M,73.47,-109.43,90.0,top
+U3,~,Fader_apai_SC1009M,92.87,-109.43,90.0,top
+U4,~,Fader_apai_SC1009M,112.27,-109.43,90.0,top
