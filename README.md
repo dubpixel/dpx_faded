@@ -45,7 +45,8 @@
     inspired by the FADER_4 from stagehacks, which is no longer produced.
     <br />
     <div align="center"> 
-    <a href="https://github.com/dubpixel/dpx_faded/tree/main/src/dpx_faded/bom"><strong>Explore the Bom »</strong></a>
+      hardware/src/dpx_faded/bom/ibom.html
+    <a href="https://github.com/dubpixel/dpx_faded/tree/main/hardware/src/dpx_faded/bom"><strong>Explore the Bom »</strong></a>
    .
    <a href="https://dubpixel.github.io/dpx_faded/ibom/index.html">View Interactive Bom</a>
     ·
