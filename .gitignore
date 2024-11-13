@@ -4,7 +4,7 @@
 .\#*
 # Any dir that ends in -old
 **/*_old/**
-zz_reference
+**/zz_reference/**
 # KiCad backup files
 *.bak
 *.bck
