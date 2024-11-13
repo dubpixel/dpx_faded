@@ -81,12 +81,12 @@
     "files": [
       {
         "name": "dpx_faded.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 0,
-          "pos_y": 24,
+          "pos_x": 360,
+          "pos_y": 25,
           "size_x": 720,
           "size_y": 875
         }

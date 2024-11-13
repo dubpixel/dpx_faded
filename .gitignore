@@ -4,7 +4,7 @@
 .\#*
 # Any dir that ends in -old
 **/*_old/**
-firmware/**
+zz_reference
 # KiCad backup files
 *.bak
 *.bck
@@ -22,4 +22,3 @@ firmware/**
 .DS_Store
 # other stuff
 
-src/bom/BOM-solder_challenge_555-dpx_v2.gsheet
