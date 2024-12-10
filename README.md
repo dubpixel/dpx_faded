@@ -215,7 +215,7 @@ Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixe
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [stagehacks](https://github.com/stagehacks/FADER_X) - fader X project
 * []()
 * []()
 
