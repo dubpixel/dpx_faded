@@ -59,8 +59,10 @@
 </div>
    <br />
 <!-- TABLE OF CONTENTS -->
+
 <details>
-  <summary>Table of Contents</summary>
+ <summary><h3>Table of Content</h3></summary>
+ 
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -84,7 +86,8 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-    <br />
+
+<br />
 <!-- ABOUT THE PROJECT -->
 </div>
 
