@@ -96,7 +96,7 @@ While the maker made the firmware open source, as well as the production gerber 
 author(s): // www.dubpixel.tv  - i@dubpixel.tv | other authors
 </br>
 
-  <summary>Images</summary>
+<summary>Images</summary>
   
 ### FRONT
 ![FRONT][product-front]
