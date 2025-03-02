@@ -1,4 +1,4 @@
-26112816427756294
+26147613348417931
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54544,6 +54544,13 @@ PTH - 3 Pin Vertical Molex Polarized Header{return}{return}Datasheet referenced 
 3
 3
 DPX_CONN
+MOLEX-1X4
+Molex 4-Pin Plated Through-Hole{return}{return}Specifications:{return}{return}• Pin count:4{return}• Pin pitch:0.1"{return}{return}Datasheet referenced for footprint{return}{return}Example device(s):{return}{return}• CONN_04
+
+0
+4
+4
+DPX_CONN
 SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
 net tie solder jumper bridged
@@ -54565,6 +54572,13 @@ Through hole socket strip THT 2x15 2.54mm double row
 30
 30
 DPX_CONN
+led-mgk_PinSocket_2x32_P2.54mm_Vertical
+Through hole straight socket strip, 2x32, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x32 2.54mm double row
+0
+64
+64
+DPX_CONN
 mousebites_2mm
 
 
@@ -54585,6 +54599,13 @@ mousebites_noedgecuts
 0
 0
 0
+DPX_CONTROL
+01x10_piano_dip-DSPV10LSGET
+
+
+0
+20
+20
 DPX_CONTROL
 BOURNS-PTL-20mm
 
@@ -54674,7 +54695,14 @@ Fader_behringerx32_b10k_100mm
 
 
 0
-12
+10
+9
+DPX_CONTROL
+Fader_terwin_SM100BN-B10K--L82T1H5
+
+
+0
+8
 7
 DPX_CONTROL
 JOYSTICK-PSP1000
@@ -54756,6 +54784,13 @@ Yuandi TS-1045-A7 Tactile Switch. Right Angle SMD with 4.5mm Shaft (7mm overall 
 DPX_CONTROL
 VIBE-MOTOR-10MM
 
+
+0
+2
+2
+DPX_DIODE
+DO214AA
+DIODE
 
 0
 2
@@ -55118,6 +55153,13 @@ ESP32
 50
 39
 DPX_IC
+NML0505SC
+DCDC-Converter
+DCDC-Converter 
+0
+4
+4
+DPX_IC
 NS20-L
 
 SN74HC244NSR 
@@ -55145,6 +55187,13 @@ SOIC SO
 0
 24
 24
+DPX_IC
+SOP-8_3.76x4.96mm_P1.27mm
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
 DPX_IC
 SOP-20_7.5x12.8mm_P1.27mm
 SOP, 20 Pin (https://www.holtek.com/documents/10179/116723/sop20-300.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -55174,6 +55223,20 @@ TMC2208_BREAKOUT
 16
 16
 DPX_IC
+Teensy41
+
+
+0
+67
+67
+DPX_IC
+Teensy41_less_pins
+
+
+0
+57
+57
+DPX_IC
 WROOM32_SKINNY
 
 
@@ -55196,6 +55259,20 @@ LED RGB SPI
 6
 DPX_LED
 FILAMENT_26MM
+
+
+0
+2
+2
+DPX_LED
+FILAMENT_38MM-ACTUAL
+
+
+0
+2
+2
+DPX_LED
+FILAMENT_38MM-ACTUAL_CUT
 
 
 0
@@ -55887,13 +55964,6 @@ mounting hole 3mm
 0
 1
 1
-DPX_PWR
-V78XX-500
-
-
-0
-3
-3
 DPX_USB
 FERRITE_0603
 BEADC1608X95N
@@ -58036,6 +58106,69 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EasyEda-Automatic
+ANT-TH_KH-BNC75-3511
+
+
+0
+4
+4
+EasyEda-Automatic
+CAP-SMD_BD4.0-L4.3-W4.3-FD
+
+
+0
+2
+2
+EasyEda-Automatic
+CONN-SMD_PH2.0-1X2PW
+
+
+0
+4
+4
+EasyEda-Automatic
+DC-IN-TH_DC-005-5A-2.0-SMT
+
+
+0
+6
+3
+EasyEda-Automatic
+RJ45-TH_J1B1211CCD
+
+
+0
+16
+14
+EasyEda-Automatic
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+EasyEda-Automatic
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+
+
+0
+4
+4
+EasyEda-Automatic
+SW-SMD_DSPV10LSGET
+
+
+0
+20
+20
+EasyEda-Automatic
+TEST-SMD_L4.7-P3.4
+
+
+0
+1
+1
 Espressif
 ESP32-C3-DevKitM-1
 
@@ -94023,6 +94156,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+Samacsys-Automatic
+5016
+5016
+Connector
+0
+1
+1
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

@@ -6,9 +6,16 @@
 *** or simply open an issue with the tag "enhancement".
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
-*** this has additionally been changed by dubpixel for the dpx_ series of projects
-*** search dpx_faded .. replace COMMAND OPTION F
-***
+
+
+
+*** /// d   u   b   p   i   x   e   l  ---  f   o   r   k   ////--v0.5.0
+*** this has additionally been modifed by @dubpixel for hardware use
+*** search dpx_faded.. search & replace is COMMAND OPTION F
+*** 
+*** todo add small product image thats not in a details tag
+*** figure out how to get the details tag to properly render in jekyll for gihub pages.
+
 -->
 
 
@@ -20,6 +27,7 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
+***
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -37,28 +45,26 @@
     <img src="images/logo.png" alt="Logo" height="120">
   </a>
 
-<h1 align="center">dpx_faded </h1>
-<h3 align="center"><i>a motorized fader breakout inspired by the FADER_4</i></h3>
-
-  <p align="left">
-    ...breakout board and mounting panel for 4x behringer x32-style faders.
-    inspired by the FADER_4 from stagehacks, which is no longer produced.
-    <br />
-    <div align="center"> 
-      hardware/src/dpx_faded/bom/ibom.html
-    <a href="https://github.com/dubpixel/dpx_faded/tree/main/hardware/src/dpx_faded/bom"><strong>Explore the Bom »</strong></a>
-   .
-   <a href="https://dubpixel.github.io/dpx_faded/ibom/index.html">View Interactive Bom</a>
-    ·
+<h1 align="center">dpx_faded</h1>
+<h3 align="center"><i>because whats life without fader?</i></h3>
+<br />
+  <p align="center">
+    ...a motorized fader breakout inspired by the FADER_4. Since there were only gerbers that didnt seem to match any faders available easily  - i re made a KiCAD project based on the 1.8 board revision. Included here for quick reference is a VScode migrated FADER_X firmware distro... soon to be migrated to its own _genuine_ fork.
+        <br />
+    <p align="center">
+     <a href="https://github.com/dubpixel/dpx_faded/tree/main/"><strong>Project Here!</strong></a>
+     »  
+    <a href="https://github.com/dubpixel/dpx_faded/tree/main/src/bom"><strong>BOM Here!</strong></a>
+     » 
+    <a href="https://dubpixel.github.io/dpx_faded/ebom/index.html"><strong>Interactive BOM Here!</strong></a>
+     <br />
     <a href="https://github.com/dubpixel/dpx_faded/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/dubpixel/dpx_faded/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
     </div>
     </p>
 </div>
-
-
-
+   <br />
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -76,7 +82,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#usage">Usage</a></li>    
+    <li><a href="#reflection">Reflection</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -84,38 +91,50 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
-
-
+    <br />
 <!-- ABOUT THE PROJECT -->
+</div>
+
 <details>
 <summary><h3>About The Project</h3></summary>
-breakout board and mounting panel for 4x behringer x32-style faders.inspired by the FADER_4 from stagehacks, which is no longer produced. While the maker made the firmware open source, as well as the production files - the cad files were not released in a malliable format, which doesnt allow further development of that hardware platform. (bummer). Since there is some community interest in the product, here we attempt to reverse engineer the motorized fader component of the project.
-</details>
+While the maker made the firmware open source, as well as the production gerber files - the cad files were not released in a malliable format, which doesnt allow further development of that hardware platform. (bummer). Since there is some community interest in the product, here we attempt to reverse engineer the FADE_4 as a proof of concept before continuing with development
+
 </br>
-www.dubpixel.tv  - i@dubpixel.tv
+author(s): // www.dubpixel.tv  - i@dubpixel.tv | other authors
 </br>
 
-FRONT
+  <summary>Images</summary>
+  
+### FRONT
 ![FRONT][product-front]
 
-REAR
+### REAR 
 ![REAR][product-rear]
 
-iBOM PCB Front
+### FRONT Rendering
+![FRONT][product-front-rendering]
+
+### REAR Rendering
+![REAR][product-rear-rendering]
+
+### iBOM PCB Front
 ![iBOM Front][product-pcbFront]
 
-iBOM PCB Rear
+### iBOM PCB Rear
 ![iBOM Front][product-pcbRear]
-
-
+</details>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With 
-* [![KiCad][KiCad.org]][KiCad-url]
+ * [![KiCad][KiCad.org]][KiCad-url]
+ * [![Fusion360][Fusion-360]][Autodesk-url]
+ * [![FastLed][FastLed.io]][FastLed-url]
+
 <!--
+  
+ * [![Fusion360][Fusion-360]][Autodesk-url]
  * [![Next][Next.js]][Next-url]
  * [![React][React.js]][React-url]
  * [![Vue][Vue.js]][Vue-url]
@@ -139,28 +158,47 @@ iBOM PCB Rear
 
 ### Installation
 
+<!--
 1. Download...
 2. Enjoy.
-3. Repeat as Needed!
+3. Repeat as Needed! -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://example.com)_-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Reflection
 
+* what did we learn? 
+* what do we like/hate?
+* what would/could we do differently?
+<!-- 
+* what did we learn? 
+* what do we like/hate?
+* what would/could we do differently? 
+-->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Reverse Enineer FADE_4 from gerber and firmware.
+- [ ] Re-Draw Front Panel
+- [ ] Prove Existing FADE_4 Redesign 
+    - [ ] with x32 faders
+- [ ] Find source of touch faders from anyone but Apai
+    - [ ] talking to lyric made me want to go be a dirt farmer
+ - [ ] Add LED to front panel
+
 
 See the [open issues](https://github.com/dubpixel/dpx_faded/issues) for a full list of proposed features (and known issues).
 
@@ -191,22 +229,20 @@ Don't forget to give the project a star! Thanks again!
 </a>
 
 
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+  Distributed under the UNLICENSE License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
 ## Contact
 
-#Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+  ### Joshua Fleitell - i@dubpixel.tv
 
-Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixel/dpx_faded)
+  Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixel/dpx_faded)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,12 +252,11 @@ Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixe
 ## Acknowledgments
 
 * [stagehacks](https://github.com/stagehacks/FADER_X) - fader X project
-* []()
-* []()
+<!--
+  * []() - the best !
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -236,10 +271,11 @@ Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixe
 [license-shield]: https://img.shields.io/github/license/dubpixel/dpx_faded.svg?style=for-the-badge
 [license-url]: https://github.com/dubpixel/dpx_faded/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/jfleitell
 [product-front]: images/front.png
 [product-rear]: images/rear.png
+[product-front-rendering]: images/front_render.png
+[product-rear-rendering]: images/rear_render.png
 [product-pcbFront]: images/pcb_front.png
 [product-pcbRear]: images/pcb_rear.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
@@ -258,5 +294,9 @@ Project Link: [https://github.com/dubpixel/dpx_faded](https://github.com/dubpixe
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[KiCad.org]: https://img.shields.io/badge/KiCad-v8.0.3-blue
+[KiCad.org]: https://img.shields.io/badge/KiCad-v8.0.6-blue
 [KiCad-url]: https://kicad.org 
+[Fusion-360]: https://img.shields.io/badge/Fusion360-v4.2.0-green
+[Autodesk-url]: https://autodesk.com 
+[FastLed.io]: https://img.shields.io/badge/FastLED-v3.9.9-red
+[FastLed-url]: https://fastled.io 

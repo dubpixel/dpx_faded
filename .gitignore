@@ -1,15 +1,27 @@
+### DPX KICAD GIT IGNORE v0.5.2
 # Generic backup files
 *~
 \#*
 .\#*
+
 # Any dir that ends in -old
 **/*_old/**
 **/zz_reference/**
+**/ZZ_IGNORE/**
+**/zz_archive/**
+
+# other stuff
+**/.DS_Store
+.DS_Store
+*.gsheet
+
+##########------ KICAD SPECIFIC STUFF ------######
 # KiCad backup files
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.gsheet
+**/*.kicad_pcb-bak
+**/*-backups/*.zip
 
 # KiCad generated files
 *.erc
@@ -18,8 +30,15 @@
 *-rescue.lib
 *.lck
 
-**/.DS_Store
-.DS_Store
-# other stuff
+# all the footprints cache
+fp-info-cache
+*/fp-info-cache
 
+# kicad local profile
+*.kicad_prl
+
+
+# project specific countries
 hardware/spec/datasheet/Toy Sound Box Variable Resistors Fader Mixer B103 100mm 10kω Linear Motorized Slide Potentiometer - Buy Toy Sound Box Variable Resistors Fader Mixer B103 100mm 10kω Linear Motorized Slide Potentiometer motorized Fader potentiometer slide Potentiomet.pdf
+
+hardware/spec/datasheet/2-TERWIN/Toy Sound Box Variable Resistors Fader Mixer B103 100mm 10kω Linear Motorized Slide Potentiometer - Buy Toy Sound Box Variable Resistors Fader Mixer B103 100mm 10kω Linear Motorized Slide Potentiometer motorized Fader potentiometer slide Potentiomet.pdf
