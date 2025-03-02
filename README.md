@@ -85,7 +85,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
 </ol>
 </details>
-</div>
 <br />
 <!-- ABOUT THE PROJECT -->
 
@@ -116,6 +115,7 @@ author(s): // www.dubpixel.tv  - i@dubpixel.tv | other authors
 
 ### iBOM PCB Rear
 ![iBOM Front][product-pcbRear]
+
 </details>
 
 
