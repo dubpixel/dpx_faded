@@ -1,4 +1,4 @@
-26137160166161166
+26147613348417931
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54695,8 +54695,8 @@ Fader_behringerx32_b10k_100mm
 
 
 0
-12
-11
+10
+9
 DPX_CONTROL
 Fader_terwin_SM100BN-B10K--L82T1H5
 
@@ -55222,6 +55222,20 @@ TMC2208_BREAKOUT
 0
 16
 16
+DPX_IC
+Teensy41
+
+
+0
+67
+67
+DPX_IC
+Teensy41_less_pins
+
+
+0
+57
+57
 DPX_IC
 WROOM32_SKINNY
 
@@ -58107,12 +58121,40 @@ CAP-SMD_BD4.0-L4.3-W4.3-FD
 2
 2
 EasyEda-Automatic
+CONN-SMD_PH2.0-1X2PW
+
+
+0
+4
+4
+EasyEda-Automatic
+DC-IN-TH_DC-005-5A-2.0-SMT
+
+
+0
+6
+3
+EasyEda-Automatic
 RJ45-TH_J1B1211CCD
 
 
 0
 16
 14
+EasyEda-Automatic
+SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+8
+8
+EasyEda-Automatic
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+
+
+0
+4
+4
 EasyEda-Automatic
 SW-SMD_DSPV10LSGET
 

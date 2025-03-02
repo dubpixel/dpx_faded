@@ -1,7 +1,18 @@
-Comment,Designator,Footprint,LCSC
-Conn_01x08_Pin,J2,PinHeader_1x08_P2.54mm_Vertical,
-~,U2,Fader_apai_SC1009M,
-~,U4,Fader_apai_SC1009M,
-~,U3,Fader_apai_SC1009M,
-~,U1,Fader_apai_SC1009M,
-Conn_01x08_Pin,J1,PinHeader_1x08_P2.54mm_Vertical,
+Comment,Designator,Footprint,LCSC,Quantity
+100 NF,"C11,C12,C13,C14,C15,C16,C17,C18,C19,C2,C20,C21,C3,C5,C6,C8,C9",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,17
+YELLO,LED11,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C2296,1
+GREEN,LED10,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C2297,1
+680R,"R1,R10,R2,R3",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23228,4
+4.7 uF,"C1,C10,C4,C7",C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C29823,4
+TS-1187A-B-A-B,"SW1,SW2",SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5,C318884,2
+DC-005-5A-2.0-SMT,DC1,DC-IN-TH_DC-005-5A-2.0-SMT,C319134,1
+motor.1,"J1,J2,J3,J4",CONN-SMD_PH2.0-1X2PW,C64658,4
+RED,LED9,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C84256,1
+TC118S,"U5,U6,U7,U8",SOP-8_L4.9-W3.9-P1.27-LS6.0-BL,C88308,4
+J1B1211CCD,RJ1,RJ45-TH_J1B1211CCD,C910371,1
+NML0505SC,U12,NML0505SC,,1
+Teensy4.1,U9,Teensy41_less_pins,,1
+~,U14,Fader_behringerx32_b10k_100mm,,1
+~,U11,Fader_behringerx32_b10k_100mm,,1
+~,U10,Fader_behringerx32_b10k_100mm,,1
+~,U13,Fader_behringerx32_b10k_100mm,,1
