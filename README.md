@@ -54,7 +54,7 @@
     <p align="center">
      <a href="https://github.com/dubpixel/dpx_faded/tree/main/"><strong>Project Here!</strong></a>
      »  
-    <a href="https://github.com/dubpixel/dpx_faded/tree/main/src/bom"><strong>BOM Here!</strong></a>
+    <a href="https://github.com/dubpixel/dpx_faded/tree/main/src/dpx_faded/bom"><strong>BOM Here!</strong></a>
      » 
     <a href="https://dubpixel.github.io/dpx_faded/ebom/index.html"><strong>Interactive BOM Here!</strong></a>
      <br />
