@@ -1,22 +1,16 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
+<!--  *** Thanks for checking out the Best-README-Template. If you have a suggestion that would make this better, please fork the repo and create a pull request or simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again! Now go create something AMAZING! :D -->
 
 
 
-*** /// d   u   b   p   i   x   e   l  ---  f   o   r   k   ////--v0.5.0
-*** this has additionally been modifed by @dubpixel for hardware use
-*** search dpx_faded.. search & replace is COMMAND OPTION F
-*** 
-*** todo add small product image thats not in a details tag
-*** figure out how to get the details tag to properly render in jekyll for gihub pages.
+<!-- /// d   u   b   p   i   x   e   l  ---  f   o   r   k   ////--v0.5.0 -->
+<!--this has additionally been modifed by @dubpixel for hardware use -->
+<!--search dpx_faded.. search & replace is COMMAND OPTION F -->
 
--->
+<!--todo add small product image thats not in a details tag -->
+<!--igure out how to get the details tag to properly render in jekyll for gihub pages.-->
+
 
 
 
