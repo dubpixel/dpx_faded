@@ -61,9 +61,8 @@
 <!-- TABLE OF CONTENTS -->
 
 <details>
- <summary><h3>Table of Content</h3></summary>
- 
-  <ol>
+<summary><h3>Table of Content</h3></summary>
+<ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -84,12 +83,11 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+</ol>
 </details>
-
+</div>
 <br />
 <!-- ABOUT THE PROJECT -->
-</div>
 
 <details>
 <summary><h3>About The Project</h3></summary>
