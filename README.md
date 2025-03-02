@@ -45,6 +45,7 @@
   <p align="center">
     ...a motorized fader breakout inspired by the FADER_4. Since there were only gerbers that didnt seem to match any faders available easily  - i re made a KiCAD project based on the 1.8 board revision. Included here for quick reference is a VScode migrated FADER_X firmware distro... soon to be migrated to its own _genuine_ fork.
         <br />
+     »  
      <a href="https://github.com/dubpixel/dpx_faded/tree/main/"><strong>Project Here!</strong></a>
      »  
     <a href="https://github.com/dubpixel/dpx_faded/tree/main/hardware/src/dpx_faded/bom"><strong>BOM Here!</strong></a>
