@@ -91,13 +91,11 @@
 <details>
 <summary><h3>About The Project</h3></summary>
 While the maker made the firmware open source, as well as the production gerber files - the cad files were not released in a malliable format, which doesnt allow further development of that hardware platform. (bummer). Since there is some community interest in the product, here we attempt to reverse engineer the FADE_4 as a proof of concept before continuing with development
-
 </br>
 author(s): // www.dubpixel.tv  - i@dubpixel.tv | other authors
 </br>
-
 <summary>Images</summary>
-  
+
 ### FRONT
 ![FRONT][product-front]
 
