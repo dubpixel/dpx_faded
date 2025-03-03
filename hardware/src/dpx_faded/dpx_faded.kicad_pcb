@@ -22057,6 +22057,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "${TITLE} // ${REVISION} - ${ISSUE_DATE}"
+		(at 314.222756 220.11 0)
+		(layer "F.SilkS")
+		(uuid "f71bb055-6444-40a3-8009-8f3beac75d48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "U6"
 		(at 332.66 123.91 0)
 		(layer "F.SilkS")

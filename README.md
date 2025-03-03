@@ -59,7 +59,6 @@
 </div>
    <br />
 <!-- TABLE OF CONTENTS -->
-
 <details>
 <summary><h3>Table of Content</h3></summary>
 <ol>
@@ -244,8 +243,9 @@ Don't forget to give the project a star! Thanks again!
 ## Acknowledgments
 
 * [stagehacks](https://github.com/stagehacks/FADER_X) - fader X project
+
 <!--
-  * []() - the best !
+  * [ ]() - the best 
 -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
