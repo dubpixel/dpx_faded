@@ -168,8 +168,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_-->
 ## Reflection
 
 * what did we learn? 
+  - things take what they take. (good) things take more.
+  - pinouts. always read the pinouts with parts on somoene elses BOM/hardware design
 * what do we like/hate?
+  - faders
+  - the pinout from the fade 4 was kinda wack in the way that it forced me to do certain routing.
+  - finally got the chance to do an on-the-board rj45 /  differential trace matching etc.
 * what would/could we do differently?
+ - wiper pin up top /  better routing of the analog pins, better use of the multilayer pcb
+
 <!-- 
 * what did we learn? 
 * what do we like/hate?
@@ -183,12 +190,21 @@ _For more examples, please refer to the [Documentation](https://example.com)_-->
 ## Roadmap
 
 - [x] Reverse Enineer FADE_4 from gerber and firmware.
-- [ ] Re-Draw Front Panel
+- [x] Re-Draw Front Panel
 - [ ] Prove Existing FADE_4 Redesign 
     - [ ] with x32 faders
 - [ ] Find source of touch faders from anyone but Apai
     - [ ] talking to lyric made me want to go be a dirt farmer
- - [ ] Add LED to front panel
+- [ ] Implement Touch sensors on faders
+- [ ] Add additional control sets
+  - [ ] X/y joystick
+  - [ ] potentiometer
+    - [ ] analog multiplexor for addtl analog ins
+  - [ ] rotary encoder ?
+  - [ ] adressable led
+  - [ ] cherry keys / keymatrix
+
+
 
 
 See the [open issues](https://github.com/dubpixel/dpx_faded/issues) for a full list of proposed features (and known issues).
