@@ -539,6 +539,411 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DPX_CONTROL:Behringer_X32_Fader_Motorized"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5100,6 +5505,12 @@
 		(uuid "b5580ca6-c610-43bb-bb25-05da5f703981")
 	)
 	(junction
+		(at 250.19 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a34eaf-390e-4875-b128-c2b4e479f92c")
+	)
+	(junction
 		(at 159.9763 241.7941)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5178,6 +5589,16 @@
 			(type default)
 		)
 		(uuid "050945d8-c87f-4aa5-93e7-0e1cee2055a3")
+	)
+	(wire
+		(pts
+			(xy 242.57 238.76) (xy 236.22 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06dba3cd-8aac-4308-a02f-05e73328ae97")
 	)
 	(wire
 		(pts
@@ -5378,6 +5799,16 @@
 			(type default)
 		)
 		(uuid "2651c623-3e5c-43c3-a9d1-51a0db7643e4")
+	)
+	(wire
+		(pts
+			(xy 236.22 246.38) (xy 250.19 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2911d18b-2125-475e-a370-9e839a7f2b79")
 	)
 	(wire
 		(pts
@@ -5661,6 +6092,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 238.76) (xy 236.22 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677fc1d9-fe9c-4ca2-bd59-de7647ff5f2f")
+	)
+	(wire
+		(pts
 			(xy 127 38.1) (xy 129.54 38.1)
 		)
 		(stroke
@@ -5731,7 +6172,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 105.41) (xy 394.97 105.41)
+			(xy 64.77 38.1) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6270,6 +6711,26 @@
 		)
 		(uuid "d607d0b2-3f0a-411c-8005-333dfb4d968a")
 	)
+	(text "no pin 7 on symbol (this is the moutn hole)\n"
+		(exclude_from_sim no)
+		(at 42.164 161.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb033e4d-64fe-4879-9df0-fb082581e5f0")
+	)
+	(text "no pins 3/4 - these are the mounting tabs on the jst connector"
+		(exclude_from_sim no)
+		(at 374.904 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1832bf6-e62b-4ba7-9f89-0e5b5ae56470")
+	)
 	(global_label "+5v-DIRTY"
 		(shape input)
 		(at 108.7161 180.7627 180)
@@ -6514,7 +6975,7 @@
 	)
 	(global_label "j4.y"
 		(shape input)
-		(at 267.97 90.17 0)
+		(at 260.35 241.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6524,7 +6985,7 @@
 		)
 		(uuid "133dbc6d-0b5e-484c-874c-1a23565d9ba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3419 90.17 0)
+			(at 266.7219 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +7019,7 @@
 	)
 	(global_label "j1.y"
 		(shape input)
-		(at 267.97 74.93 0)
+		(at 260.35 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6568,7 +7029,7 @@
 		)
 		(uuid "1648d22d-5d58-488b-8543-258051f821b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3419 74.93 0)
+			(at 266.7219 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,6 +7391,28 @@
 			)
 		)
 	)
+	(global_label "MUX_1.2"
+		(shape input)
+		(at 250.19 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f50670c-90de-4933-bf0f-aa97df2841dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.222 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUTTON2"
 		(shape input)
 		(at 185.42 96.52 0)
@@ -6992,6 +7475,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "analog_mux1"
+		(shape input)
+		(at 368.3 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "467b92a0-6b07-4a2a-8eac-9a1e58301cd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.8571 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7152,7 +7657,7 @@
 	)
 	(global_label "j1.x"
 		(shape input)
-		(at 267.97 72.39 0)
+		(at 260.35 223.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7162,7 +7667,7 @@
 		)
 		(uuid "5d5954e5-ce9c-4004-bf94-db8b616f1490")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.4024 72.39 0)
+			(at 266.7824 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +7679,7 @@
 	)
 	(global_label "MUX_1.3"
 		(shape input)
-		(at 250.19 82.55 180)
+		(at 242.57 233.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7184,7 +7689,7 @@
 		)
 		(uuid "5e413d85-6c01-42da-bafc-7469bc936df7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.222 82.55 0)
+			(at 231.602 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7789,7 @@
 	)
 	(global_label "MUX_1.1"
 		(shape input)
-		(at 250.19 77.47 180)
+		(at 242.57 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7294,7 +7799,7 @@
 		)
 		(uuid "700263d2-82d7-4097-8388-3b9d76b6a9f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.222 77.47 0)
+			(at 231.602 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,6 +7897,28 @@
 			)
 		)
 	)
+	(global_label "MUX_1.3"
+		(shape input)
+		(at 368.3 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7df302c8-b982-40cd-8e3d-982fcf9ce545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.332 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "motor.4-NEG"
 		(shape input)
 		(at 44.4358 278.402 0)
@@ -7410,6 +7937,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MUX_1.1"
+		(shape input)
+		(at 368.3 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8395cd6a-ecbe-4d4c-a81b-9c42d6234da5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.332 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7634,6 +8183,28 @@
 			)
 		)
 	)
+	(global_label "MUX_1.3"
+		(shape input)
+		(at 250.19 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98b2e264-f241-44cb-9202-b6707e537258")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.222 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LLED+"
 		(shape input)
 		(at 374.65 63.5 90)
@@ -7744,6 +8315,28 @@
 			)
 		)
 	)
+	(global_label "MUX_1.1"
+		(shape input)
+		(at 250.19 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0de9fc4-6ce5-4f92-b7c3-84c2cb0a1ba0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.222 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5v-DIRTY"
 		(shape input)
 		(at 110.49 270.51 180)
@@ -7768,7 +8361,7 @@
 	)
 	(global_label "analog_mux1"
 		(shape input)
-		(at 250.19 72.39 180)
+		(at 242.57 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7778,7 +8371,7 @@
 		)
 		(uuid "a1cb83e3-1a50-429e-8c0d-fa7c3e1a26c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.7471 72.39 0)
+			(at 227.1271 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,9 +8491,31 @@
 			)
 		)
 	)
+	(global_label "analog_mux1"
+		(shape input)
+		(at 251.46 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aaff49a7-40aa-4485-9c37-4fba3fb337d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.0171 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "j3.y"
 		(shape input)
-		(at 267.97 85.09 0)
+		(at 260.35 236.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7910,7 +8525,7 @@
 		)
 		(uuid "ab0f7f8b-10ed-4b65-b868-ec72faee96e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3419 85.09 0)
+			(at 266.7219 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,9 +8601,31 @@
 			)
 		)
 	)
+	(global_label "MUX_1.2"
+		(shape input)
+		(at 368.3 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b043cb2e-42ae-4ad6-b49c-54dc0168c114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 357.332 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "j4.x"
 		(shape input)
-		(at 267.97 87.63 0)
+		(at 260.35 238.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7998,7 +8635,7 @@
 		)
 		(uuid "b26723e5-eb13-4276-9830-c99800a7867f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.4024 87.63 0)
+			(at 266.7824 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8757,7 @@
 	)
 	(global_label "j2.x"
 		(shape input)
-		(at 267.97 77.47 0)
+		(at 260.35 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8130,7 +8767,7 @@
 		)
 		(uuid "c17aaddd-23e4-4581-8163-f34d4c61e8d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.4024 77.47 0)
+			(at 266.7824 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8889,7 @@
 	)
 	(global_label "j2.y"
 		(shape input)
-		(at 267.97 80.01 0)
+		(at 260.35 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8262,7 +8899,7 @@
 		)
 		(uuid "cd6ffa46-d630-402a-b6d2-87dd02ec439c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.3419 80.01 0)
+			(at 266.7219 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8977,7 @@
 	)
 	(global_label "j3.x"
 		(shape input)
-		(at 267.97 82.55 0)
+		(at 260.35 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8350,7 +8987,7 @@
 		)
 		(uuid "d89aac0b-4858-4b64-9ca0-0d7031a8660d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.4024 82.55 0)
+			(at 266.7824 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +9329,7 @@
 	)
 	(global_label "MUX_1.2"
 		(shape input)
-		(at 250.19 80.01 180)
+		(at 242.57 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8702,7 +9339,7 @@
 		)
 		(uuid "fc4822ee-3c6a-4b5d-ab6a-d43019e8b297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.222 80.01 0)
+			(at 231.602 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,6 +9416,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 204.47 208.28 0)
 			(effects
 				(font
@@ -8884,6 +9530,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 81.28 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 81.28 245.11 0)
 			(effects
 				(font
@@ -9055,6 +9710,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 116.7963 218.9341 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d54b19c9-8bab-4d90-9381-fbf7a13de44b")
 		)
@@ -9072,7 +9736,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC4051")
-		(at 257.81 80.01 0)
+		(at 250.19 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9081,7 +9745,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b55648d-2f79-4cd9-abee-8b0098dd48c8")
 		(property "Reference" "U1"
-			(at 260.0041 64.77 0)
+			(at 252.3841 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9090,7 +9754,7 @@
 			)
 		)
 		(property "Value" "74HC4051"
-			(at 260.0041 67.31 0)
+			(at 252.3841 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9763,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 257.81 90.17 0)
+			(at 250.19 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9108,7 +9772,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf"
-			(at 257.81 90.17 0)
+			(at 250.19 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9781,16 @@
 			)
 		)
 		(property "Description" "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"
-			(at 257.81 80.01 0)
+			(at 250.19 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 250.19 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,6 +9936,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 66.0258 180.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0348504c-e6f1-4ec0-a75b-d79ead709023")
 		)
@@ -9273,6 +9955,72 @@
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 223.52 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ebba47e-3c36-4546-9d35-45cb53f7d73e")
+		(property "Reference" "#PWR053"
+			(at 223.52 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 223.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 223.52 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "391323bd-45ed-4915-a208-b74e9944bc97")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -9352,6 +10100,15 @@
 			)
 		)
 		(property "LCSC" "C64658"
+			(at 386.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 386.08 196.85 0)
 			(effects
 				(font
@@ -9506,6 +10263,15 @@
 		)
 		(property "LCSC" "C318884"
 			(at 314.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 314.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,6 +10447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 81.28 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67b257e8-7698-4f77-bca2-8a87655d2f67")
 		)
@@ -9691,6 +10466,97 @@
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 373.38 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "232f926a-40d9-4e46-9e9f-fd989e52a145")
+		(property "Reference" "J5"
+			(at 374.65 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 374.65 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
+			(at 373.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 373.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 373.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029441"
+			(at 374.65 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0183b146-bcde-4043-8b04-e87402d72ad6")
+		)
+		(pin "3"
+			(uuid "da9f9f88-810c-4295-a190-c6833ac859b7")
+		)
+		(pin "1"
+			(uuid "c9537a15-386c-4c2e-805a-fae3d8bfc4b3")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10042,6 +10908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 173.4861 175.6827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52e2c8a5-a563-4739-a794-1ac42d74aeaa")
 		)
@@ -10270,6 +11145,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 160.02 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21c33ac7-0125-4dbb-99c3-d1d1b726ab06")
 		)
@@ -10424,6 +11308,15 @@
 			)
 		)
 		(property "LCSC" "C64658"
+			(at 386.08 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 386.08 204.47 0)
 			(effects
 				(font
@@ -10595,6 +11488,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 350.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5ff48aa-7973-4bac-9c7b-4801aaa39bb2")
 		)
@@ -10678,7 +11580,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 95.25 0)
+		(at 250.19 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10686,7 +11588,7 @@
 		(dnp no)
 		(uuid "3ce66195-42a1-4c48-810a-4baaff5a3fb8")
 		(property "Reference" "#PWR039"
-			(at 257.81 101.6 0)
+			(at 250.19 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +11597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 99.06 0)
+			(at 250.19 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10703,7 +11605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 95.25 0)
+			(at 250.19 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,7 +11614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 95.25 0)
+			(at 250.19 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10721,7 +11623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 95.25 0)
+			(at 250.19 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,6 +11869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b261cae6-772c-45e7-8442-7226bfe1a88b")
 		)
@@ -11047,6 +11958,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 44.4358 272.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 44.4358 272.052 0)
 			(effects
 				(font
@@ -11234,6 +12154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 24.13 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7c47d377-7340-4b1b-a4bf-ba5ed85bc0fd")
 		)
@@ -11338,6 +12267,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 24.13 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 24.13 181.61 0)
 			(effects
 				(font
@@ -11452,6 +12390,15 @@
 		)
 		(property "LCSC" "C319134"
 			(at 379.73 128.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 372.11 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,6 +12630,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 24.13 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2ae0e575-c635-4a96-ad42-9f44ee976a53")
 		)
@@ -11801,6 +12757,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 134.1161 174.4127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6ab3c45d-7fa8-480b-af47-669d314ce66a")
 		)
@@ -11829,6 +12794,74 @@
 			(project ""
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1d11e4-1c67-4992-aa15-d367ff6a5b03")
+		(property "Reference" "#PWR056"
+			(at 368.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a628722-b668-4e99-b503-2058ee28a1d8")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11925,6 +12958,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 379.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e3e5d47-f031-4114-aeb3-e604c3b81587")
 		)
@@ -11971,6 +13013,96 @@
 			(project ""
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "RJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 255.27 195.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b191fc4-19eb-4286-a609-5a49dbc55833")
+		(property "Reference" "J8"
+			(at 254.635 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 254.635 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 255.27 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029441"
+			(at 254.635 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5ae9a2d-f5a4-47ab-8ece-f70cfe97bdbe")
+		)
+		(pin "3"
+			(uuid "c4adce58-26ae-4110-9d52-137716d349a4")
+		)
+		(pin "1"
+			(uuid "5b390764-c243-4119-945b-5e9235b4b0d5")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -12041,6 +13173,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 44.45 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 44.45 177.8 0)
 			(effects
 				(font
@@ -12161,6 +13302,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 358.14 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "e4f82a34-1c96-47da-bedf-83d64dfa93a1")
 		)
@@ -12235,6 +13385,73 @@
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 368.3 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529671c4-2a6c-4819-9a07-9cff6a1ad833")
+		(property "Reference" "#PWR055"
+			(at 368.3 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 368.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40c1c8a-f8e5-4ac4-b7c5-b241afb664fc")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -12531,6 +13748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0d83bcc-4318-4259-8400-12581882eb7a")
 		)
@@ -12618,6 +13844,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -12842,7 +14077,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 67.31 0)
+		(at 250.19 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12851,7 +14086,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b8d329f-3136-42e1-896c-7bda31b670c9")
 		(property "Reference" "#PWR041"
-			(at 257.81 71.12 0)
+			(at 250.19 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +14095,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 257.81 62.23 0)
+			(at 250.19 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,7 +14103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 67.31 0)
+			(at 250.19 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,7 +14112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 67.31 0)
+			(at 250.19 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +14121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 67.31 0)
+			(at 250.19 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,6 +14205,15 @@
 		)
 		(property "LCSC" "C318884"
 			(at 336.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 336.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,6 +14323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 81.28 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f39041ee-bc2f-4552-9a00-487518f0f286")
 		)
@@ -13165,6 +14418,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 135.8463 235.4441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 135.8463 235.4441 0)
 			(effects
 				(font
@@ -13541,6 +14803,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 307.34 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7c47d377-7340-4b1b-a4bf-ba5ed85bc0fe")
 		)
@@ -13643,6 +14914,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 157.48 92.71 0)
 			(effects
 				(font
@@ -14110,6 +15390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 204.47 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "5f4b6989-82d6-4833-b8aa-1bddaa2da215")
 		)
@@ -14197,6 +15486,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 307.34 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 307.34 259.08 0)
 			(effects
 				(font
@@ -14524,6 +15822,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 67.2958 214.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35c281fe-baeb-495f-a294-fafd547fbe09")
 		)
@@ -14739,6 +16046,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 373.38 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7bae50-b6ad-4872-80ab-45dcd6dfbc30")
+		(property "Reference" "J6"
+			(at 374.65 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 374.65 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
+			(at 373.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 373.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 373.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029441"
+			(at 374.65 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "927ca51f-f38b-4ec0-8ac0-ee32ec57bee9")
+		)
+		(pin "3"
+			(uuid "1db3fe7a-073e-497d-99b6-de9c1705b66c")
+		)
+		(pin "1"
+			(uuid "eed8b3a7-52e0-4220-8ed5-074aae4906ac")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 218.44 0)
 		(unit 1)
@@ -14878,6 +16276,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 173.99 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 173.99 265.43 0)
 			(effects
 				(font
@@ -15181,6 +16588,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 116.3361 185.8427 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72bde63d-8e81-4fb6-95c1-e52ff0311eed")
 		)
@@ -15259,6 +16675,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 307.34 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 307.34 271.78 0)
 			(effects
 				(font
@@ -15379,6 +16804,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 383.54 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "370de841-8720-463c-a01d-828f2fb25d75")
 		)
@@ -15456,6 +16890,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 44.45 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 44.45 210.82 0)
 			(effects
 				(font
@@ -15576,6 +17019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 307.34 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
@@ -15658,6 +17110,15 @@
 			)
 		)
 		(property "LCSC" "C29823"
+			(at 118.0663 246.8741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 118.0663 246.8741 0)
 			(effects
 				(font
@@ -15887,6 +17348,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92b9a640-c7d5-4b7f-8c4f-4eb8a8131122")
 		)
@@ -16046,6 +17516,15 @@
 			)
 		)
 		(property "LCSC" "C29823"
+			(at 118.11 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 118.11 275.59 0)
 			(effects
 				(font
@@ -16217,6 +17696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 386.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8e65384-2e26-4688-b0cb-8bf65c96c9ac")
 		)
@@ -16305,6 +17793,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 158.2461 175.6827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 158.2461 175.6827 0)
 			(effects
 				(font
@@ -16402,6 +17899,15 @@
 			)
 		)
 		(property "LCSC" "C64658"
+			(at 386.08 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 386.08 189.23 0)
 			(effects
 				(font
@@ -16651,6 +18157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 269.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61b8fee5-4d6f-43b1-a664-d407eed5ed6a")
 		)
@@ -16739,6 +18254,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 64.77 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 64.77 278.13 0)
 			(effects
 				(font
@@ -16894,6 +18418,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 367.03 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 367.03 248.92 0)
 			(effects
 				(font
@@ -17140,6 +18673,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ded347ce-9dbe-40a8-b20b-fb4deabdc746")
 		)
@@ -17366,6 +18908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 135.89 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "a5282c24-d3b0-4203-9a68-ff2aaf220cca")
 		)
@@ -17474,6 +19025,15 @@
 		)
 		(property "LCSC" "C14663"
 			(at 344.17 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 353.06 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17615,6 +19175,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 204.47 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4bf86eb6-1428-402a-bd05-d98c45ca9fd2")
 		)
@@ -17702,6 +19271,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 307.34 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 307.34 247.65 0)
 			(effects
 				(font
@@ -17830,6 +19408,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 159.9763 236.7141 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd47035c-fbb3-4049-9234-80b27fda7b0c")
 		)
@@ -17840,6 +19427,96 @@
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 256.54 182.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9b8726b-40d1-47f7-88a3-ea08233e65db")
+		(property "Reference" "J7"
+			(at 255.905 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 255.905 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
+			(at 256.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 256.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
+			(at 256.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3029441"
+			(at 255.905 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3826024-1ec3-4f9e-8168-55684fe4035f")
+		)
+		(pin "3"
+			(uuid "ae937709-456f-4e4f-bde0-7dd138996c74")
+		)
+		(pin "1"
+			(uuid "60c498e4-85a5-4e30-91b7-1e4b4b242b39")
+		)
+		(instances
+			(project ""
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -17918,6 +19595,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 173.9463 236.7141 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 173.9463 236.7141 0)
 			(effects
 				(font
@@ -18081,6 +19767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 44.45 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "2ae0e575-c635-4a96-ad42-9f44ee976a55")
 		)
@@ -18116,6 +19811,73 @@
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "U13")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 180.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d45db208-fcdf-4852-938c-46f275454df8")
+		(property "Reference" "#PWR051"
+			(at 251.46 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f093ed0b-7f16-4702-9b66-8e6c2d0e1538")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR051")
+					(unit 1)
 				)
 			)
 		)
@@ -18193,6 +19955,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 172.6763 208.7741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 172.6763 208.7741 0)
 			(effects
 				(font
@@ -18289,6 +20060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 375.92 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP"
 			(uuid "f1c42281-8937-4063-9a14-0d3de687c6f0")
 		)
@@ -18374,6 +20154,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 158.7063 208.7741 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 158.7063 208.7741 0)
 			(effects
 				(font
@@ -18543,6 +20332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 134.5763 207.5041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6b6142ce-4496-468b-abe6-93670fbf5264")
 		)
@@ -18571,6 +20369,74 @@
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 185.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e225fc76-8dc6-4414-9dab-2597e1cb78ca")
+		(property "Reference" "#PWR052"
+			(at 251.46 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e7672dd-31b1-4666-bfb4-a7b99d2f358d")
+		)
+		(instances
+			(project "dpx_faded"
+				(path "/730caac5-d131-4da1-a76c-40d992583383"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18621,6 +20487,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 204.47 173.99 0)
 			(effects
 				(font
@@ -18879,6 +20754,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 288.29 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "213b2c04-81f2-4b8b-a0fc-3928bed1cc07")
 		)
@@ -18959,6 +20843,15 @@
 			)
 		)
 		(property "LCOOS" ""
+			(at 24.13 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 24.13 213.36 0)
 			(effects
 				(font
@@ -19232,6 +21125,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" ""
+			(at 250.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b2d57f4-ce28-4f04-9fe4-39cd01173696")
 		)
@@ -19320,6 +21222,15 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 67.2958 245.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" ""
 			(at 67.2958 245.382 0)
 			(effects
 				(font
