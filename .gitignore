@@ -22,6 +22,7 @@
 *.kicad_pcb-bak
 **/*.kicad_pcb-bak
 **/*-backups/*.zip
+**/*-backups/
 
 # KiCad generated files
 *.erc
