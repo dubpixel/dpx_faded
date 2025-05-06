@@ -149,7 +149,7 @@ void newSettings(){
 
 }
 
-void resetNetStatic(){
+void resetNetStatic(){ //this is the IP that gets reset when the reset static is pressed
   EEPROM.write(32, 1); // Ethernet Mode
   
   EEPROM.write(34, 192); // Static IP
@@ -162,9 +162,9 @@ void resetNetStatic(){
   EEPROM.write(40, 255); // Subnet Mask
   EEPROM.write(41, 0);   // Subnet Mask
 
-  EEPROM.write(42, 192); // Gateway
-  EEPROM.write(43, 168); // Gateway
-  EEPROM.write(44, 1);   // Gateway
+  EEPROM.write(42, 10); // Gateway
+  EEPROM.write(43, 0); // Gateway
+  EEPROM.write(44, 10);   // Gateway
   EEPROM.write(45, 1);   // Gateway
 }
 void resetNetDHCP(){

@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 36,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_fffffffc",
     "zone_display_mode": 0
   },
   "git": {
@@ -78,6 +78,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "dpx_faded.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 0,
+          "pos_y": 0,
+          "size_x": 1440,
+          "size_y": 900
+        }
+      },
+      {
+        "name": "dpx_faded.kicad_pro",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 240,
+          "pos_y": 115,
+          "size_x": 1440,
+          "size_y": 875
+        }
+      }
+    ]
   }
 }

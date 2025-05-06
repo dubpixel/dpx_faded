@@ -1,3 +1,20 @@
+// Last update: 2021-09-29 20:00:00+00:00
+//FADER_X DPX FORK
+//todo:
+/* 
+  -migrate setting of static IP to some alternate file or include - 
+  --otherwise, to set static IP even after re-setting to factory 'static' reset -  line 152 reset.ino is where that can be changed for now
+ -add some check for DPX_motherboard version
+
+++changelog 1.3.2
+  ** fixed issue with DHCP not reporting actual DHCP address
+  ++ added workaround for the fact i mis pinned out the DHCP button
+  ++ added some debug prints to help with debugging
+
+  **need to start writing some documentation. 
+    -IP mode can be set while running. push and hold the button for 5 seconds and the information will echo to the serial monitor.
+    -default static IP is 192.168.1.130
+*/
 #include <QNEthernet.h>
 #include <EEPROM.h>
 #include "Net.h"
@@ -12,7 +29,9 @@ using namespace qindesign::network;
 
 #define MAJOR 1
 #define SUBVERSION 3
-#define PATCH 1
+#define PATCH 2
+#define DHCP_BUTTON 41 //dpx_faded_4 0.5.5. mistakenly used 41 instead of 40 , set this to 40 for normal operation
+#define STATIC_BUTTON 33 //this button works fine on both versions
 
 EthernetServer globalWebServer{80};
 EthernetUDP globalUDP;
@@ -89,19 +108,21 @@ void setup() {
   }
   EEPROM.write(10, PATCH);
 
-  pinMode(33, INPUT_PULLUP);
-  button1.attach(33);
+  pinMode(STATIC_BUTTON, INPUT_PULLUP);
+  button1.attach(STATIC_BUTTON);
   button1.interval(1);
 
   if(EEPROM.read(21)>=3){
-    pinMode(40, INPUT_PULLUP);
-    button2.attach(40);
+    pinMode(DHCP_BUTTON, INPUT_PULLUP);
+    button2.attach(DHCP_BUTTON);
     button2.interval(50);
+   // Serial.println("read21>=3");;
   
   }else{
-    pinMode(25, INPUT_PULLUP);
+    pinMode(41, INPUT_PULLUP);
     button2.attach(25);
     button2.interval(50);
+   // Serial.println("else");
   }
   
   analogReadResolution(11);
@@ -177,6 +198,7 @@ void loop() {
     }
   }
   if(button2.rose()){
+    Serial.println("Button 2 Pressed");
     if(millis()-lastButton2Press>5000){
       resetNetDHCP();
       lastButton2Press+=20000;

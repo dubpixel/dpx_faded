@@ -2,10 +2,10 @@ static unsigned short defaultMessageWaitMillis = 50;
 static byte defaultMotorMinSpeed = 100;
 static unsigned short defaultMotorFrequency = 256;
 static byte defaultMotorScaleFactor = 3;
-static byte defaultStaticIP[4] = {192, 168, 1, 130};
+static byte defaultStaticIP[4] = {10, 0, 10, 130};
 static byte defaultSubnetIP[4] = {255, 255, 255, 0};
-static byte defaultGatewayIP[4] = {192, 168, 1, 1};
-static byte defaultDestinationIP[4] = {192, 168, 1, 120};
+static byte defaultGatewayIP[4] = {10, 0, 10, 1};
+static byte defaultDestinationIP[4] = {10, 0, 10, 120};
 
 boolean applySettings(EthernetClient*client, String*b){
 

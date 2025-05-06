@@ -1,4 +1,4 @@
-#include "Net.h"
+  #include "Net.h"
 #include <QNEthernet.h>
 #include <EEPROM.h>
 using namespace qindesign::network;
@@ -36,7 +36,10 @@ void Net::setup(){
         
       } else{
         Serial.println("Connected via DHCP");
-        Serial.println(this->IP_Static);
+       // Serial.println(this->IP_Static);
+        Serial.println(Ethernet.localIP());
+
+       //IP_SelfPort
   
       }
     }else{

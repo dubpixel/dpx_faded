@@ -679,25 +679,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 2.1941 11.43 0)
+			(property "Reference" "U*"
+				(at -7.874 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "CH224K"
-				(at 2.1941 10.16 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm_ThermalVias"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -724,22 +722,12 @@
 					(hide yes)
 				)
 			)
-			(property "LCPART" "C970725"
+			(property "LCPART" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C970725"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(symbol "CH224K_1_1"
@@ -1664,9 +1652,9 @@
 			)
 			(symbol "LED_1_1"
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
+					(name "C"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1682,9 +1670,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "C"
+					(name "A"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2692,7 +2680,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:DC-IN-TH_DC-005-5A-2.0-SMT"
+			(property "Footprint" "EasyEda-Automatic:DC-IN-TH_DC-005-5A-2.0-SMT"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2900,7 +2888,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:RJ45-TH_J1B1211CCD"
+			(property "Footprint" "EasyEda-Automatic:RJ45-TH_J1B1211CCD"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -10843,7 +10831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 52.07 60.96 0)
 			(effects
 				(font
@@ -10960,7 +10948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1efee250-7518-40fb-8a22-6bb0b62e6217")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -10976,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEda-Automatic:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+		(property "Footprint" "EasyEDA:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -11036,7 +11024,7 @@
 		(instances
 			(project ""
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -15328,7 +15316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d4411cf-3cc0-48d4-8fde-765ec643a685")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 260.35 78.74 0)
 			(effects
 				(font
@@ -15344,7 +15332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEda-Automatic:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
+		(property "Footprint" "EasyEDA:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
 			(at 260.35 99.06 0)
 			(effects
 				(font
@@ -15404,7 +15392,7 @@
 		(instances
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -18429,6 +18417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 307.34 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "dpx_faded"
 				(path "/730caac5-d131-4da1-a76c-40d992583383"
@@ -20031,7 +20028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 62.23 67.31 0)
 			(effects
 				(font
