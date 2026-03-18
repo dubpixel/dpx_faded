@@ -1,0 +1,291 @@
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+Preamble
+
+CERN has developed this licence to promote collaboration among
+hardware designers and to provide a legal tool which supports the
+freedom to use, study, modify, share and distribute hardware designs
+and products based on those designs. Version 2 of the CERN Open
+Hardware Licence comes in three variants: CERN-OHL-P (permissive); and
+two reciprocal licences: CERN-OHL-W (weakly reciprocal) and this
+licence, CERN-OHL-S (strongly reciprocal).
+
+The strongly reciprocal variant of the CERN OHL is intended for use in
+cases where the Licensor wishes to ensure that all Derivatives of the
+Covered Source remain freely available under the terms of the licence
+and that products incorporating Covered Source or Derivatives thereof
+be made available to any recipient under the terms of section 3 of
+this licence.
+
+Please read the licence carefully before using it or applying it to
+your hardware design or product.
+
+                       TERMS AND CONDITIONS
+
+0 Definitions
+
+  0.1 'Licence' means this CERN-OHL-S.
+
+  0.2 'Compatible Licence' means
+
+       a) any version of the CERN-OHL-S, or
+
+       b) a licence which permits its licensees to treat the text of
+          its terms and conditions as if it were a later version of
+          the CERN-OHL-S, provided that such licence:
+
+            i) also provides for the patent non-aggression clause
+               under section 8 of this licence; and
+           ii) also provides for a notice and disclaimer requirement
+               under sections 5 and 6 of this licence.
+
+  0.3 'Source' means information such as design materials or digital
+      code which can be applied to Make or test a Product or to
+      prepare a Product for use, Conveyance or sale, regardless of
+      its medium or how it is expressed. It may include Notices.
+
+  0.4 'Covered Source' means Source that is explicitly made available
+      under this Licence.
+
+  0.5 'Product' means any device, component, work or physical object,
+      whether in finished or intermediate form, arising from the use,
+      application or processing of Covered Source.
+
+  0.6 'Make' means to create or configure something, whether by
+      manufacture, assembly, compiling, loading or applying Covered
+      Source or another Product or otherwise.
+
+  0.7 'Available Component' means any part, sub-assembly, library or
+      code that:
+
+       a) is licensed to the recipient under terms that permit it to
+          be used, modified, Conveyed, and Used to make a Product;
+
+       b) is generally commercially available; and
+
+       c) is reasonably acquirable by the recipient without undue
+          effort or resources.
+
+      An Available Component need not be licensed under this Licence. A
+      Product which comprises only Available Components is not a
+      Covered Source.
+
+  0.8 'External Material' means anything which is:
+
+       a) incorporated into a Product, or into Covered Source; or
+
+       b) used to Make a Product, but which is not itself a Product; or
+
+       c) incorporated into, or used to Make a Product which is not
+          itself a Product;
+
+      and which is not part of the Covered Source.
+
+  0.9 'Derivative' means any work which is derived from or based upon
+      all or part of the Covered Source, including a circuit or
+      mechanical design derived from the Covered Source, or any
+      documentation based on or incorporating the Covered Source.
+
+  0.10 'Convey' means to communicate to the public or to distribute.
+
+  0.11 'Upstream Licensee' means the Licensor(s) who provided to the
+       Licensor the Licence for the Covered Source. Any Upstream
+       Licensor is not a party to this Licence.
+
+  0.12 'Notice' means copyright, acknowledgement and trademark notices,
+       references to this Licence, and modifications to the Source, in
+       each case as included in or attached to the Covered Source.
+
+  0.13 'Licensor' means any person who creates or modifies Covered
+       Source. A person may be a Licensor and a recipient at the same
+       time.
+
+  0.14 'Recipient' means any person who receives the Covered Source,
+       including all Contributors.
+
+  0.15 'Contributor' means any person who modifies the Covered Source.
+
+  0.16 'User' means any person who Makes a Product.
+
+1 Applicability
+
+  1.1 This Licence governs the use, copying, modification, Conveying
+      of Covered Source and Products, and the Making of Products. By
+      exercising any right granted under this Licence, You irrevocably
+      accept these terms and conditions.
+
+  1.2 This Licence is granted by the Licensor directly to You, and
+      shall apply worldwide and without limitation in time.
+
+  1.3 You shall not attempt to restrict by contract or otherwise the
+      rights granted under this Licence to other Recipients.
+
+  1.4 This Licence is not intended to restrict fair use, fair dealing,
+      or any other legally recognised limitation or exception to
+      copyright.
+
+2 Internally Used Source
+
+  2.1 You may use Covered Source internally for the purposes of study
+      and research without obligation to comply with section 3 of
+      this Licence.
+
+  2.2 Any Modifications made by You to the Covered Source must be
+      documented in the Source in a human-readable form and dated.
+
+3 Conditions for Conveying Covered Source
+
+  3.1 You may Convey verbatim copies of the Covered Source in any
+      medium, provided You retain all Notices.
+
+  3.2 You may Convey Covered Source, with or without modification,
+      provided that You:
+
+       a) retain Notices as required under section 3.1;
+
+       b) add a Notice to the modified Covered Source stating that You
+          have modified it, with the date and brief description of how
+          You have modified it;
+
+       c) add a Notice to the Covered Source prominently stating that
+          it is available under this Licence, with the text of, or the
+          URL or address of, this Licence;
+
+       d) make the Covered Source (including any modifications) and
+          any Notices available under the terms of this Licence to
+          anyone who comes into possession of the Covered Source.
+
+  3.3 You may only Convey Covered Source under the terms of this
+      Licence. You may not impose any further restrictions on the
+      exercise of the rights granted or affirmed under this Licence.
+
+  3.4 If You Convey Covered Source You must provide to each recipient
+      a written offer valid for three years, or for as long as You
+      Convey the Product, to give anyone who comes into possession of
+      the Covered Source a copy of the Covered Source at no charge
+      with the rights conferred by this Licence.
+
+  3.5 You may incorporate the Covered Source into a larger work,
+      provided that the larger work contains Covered Source under this
+      Licence and is released under a Compatible Licence.
+
+  3.6 You may not apply legal terms or technological measures that
+      legally restrict a recipient from exercising any right granted
+      under this Licence.
+
+4 Conditions for Making Products
+
+  4.1 You may Make Products, and Convey them to anyone, provided that:
+
+       a) You ensure that each Product which You Make contains and
+          displays the following Notice prominently:
+
+              "This Product is based on Covered Source licensed under
+               the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)
+               by [name of Licensor] and others."
+
+       b) You make the Covered Source (including any Modifications
+          made by You) and any Notices available under the terms of
+          this Licence to anyone who comes into possession of the
+          Product.
+
+  4.2 If You Make a Product which incorporates External Material not
+      covered by any of the rights granted under this Licence, You
+      must ensure that such External Material is clearly identified
+      as such in the Product.
+
+5 Notices
+
+  5.1 You must retain all Notices as provided in the Covered Source,
+      including in particular the copyright, authorship and
+      contribution Notices.
+
+  5.2 If it is not possible to retain Notices in a particular form
+      (such as a physical label), You must instead provide such
+      Notices in a form that is reasonable in the circumstances, for
+      example in the Product documentation.
+
+6 No Warranty
+
+  COVERED SOURCE AND ANY PRODUCTS MADE FROM IT ARE PROVIDED 'AS IS'
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+  TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+  PARTICULAR PURPOSE ARE DISCLAIMED IN FAVOUR OF THE LICENSOR AND
+  ANY OTHER CONTRIBUTORS. THIS DISCLAIMER OF WARRANTY IS AN ESSENTIAL
+  PART OF THIS LICENCE AND A CONDITION FOR THE GRANT OF ANY RIGHTS
+  GRANTED HEREUNDER.
+
+7 Liability
+
+  7.1 As far as the law allows, the Licensor and any Contributor will
+      have no liability for any direct, indirect, special, incidental,
+      consequential or punitive damages of any character arising as a
+      result of this Licence or the use of the Covered Source or any
+      Products made therefrom, even if advised of the possibility of
+      such damages, and You agree that this is an essential part of
+      this Licence.
+
+  7.2 Nothing in this Licence shall be taken as an assurance by the
+      Licensor or any Contributor that the Covered Source or any
+      Products made therefrom will not infringe the rights of third
+      parties.
+
+8 Patents
+
+  8.1 Subject to the terms and conditions of this Licence, each
+      Licensor hereby grants to You a perpetual, worldwide,
+      non-exclusive, no-charge, royalty-free, irrevocable (except as
+      stated in subsections 8.2 and 8.3) patent licence to Make, have
+      Made, use, offer to sell, sell, import, and otherwise transfer
+      the Covered Source and Products made therefrom, where such
+      licence applies only to those patent claims licensable by such
+      Licensor that are necessarily infringed by exercising rights
+      under the Covered Source as Conveyed by that Licensor.
+
+  8.2 If You institute patent litigation against any entity (including
+      a cross-claim or counterclaim in a lawsuit) alleging that the
+      Covered Source or a Product made therefrom constitutes direct
+      or contributory patent infringement, then any patent licences
+      granted to You under this Licence for the Covered Source shall
+      terminate as of the date such litigation is filed.
+
+  8.3 If You Assert a patent claim against a Licensor or Contributor
+      alleging that the Covered Source or a Product made therefrom
+      constitutes direct or contributory patent infringement, then,
+      in addition to the termination of patent licences provided for
+      in section 8.2, the Licensor may terminate this Licence with
+      immediate effect. The Licensor must send You written notice of
+      such termination within sixty (60) days of the date of such
+      assertion.
+
+9 General
+
+  9.1 If any provision of this Licence is or becomes illegal,
+      invalid or unenforceable in any jurisdiction, this shall not
+      affect the legality, validity or enforceability of the
+      remaining provisions of this Licence, which shall remain in
+      full force and effect.
+
+  9.2 Where Your right to use the Covered Source depends on Your
+      compliance with this Licence and You fail to comply with any of
+      its terms, You lose the rights granted to You under this Licence.
+      If You subsequently comply with the terms, the rights may be
+      reinstated with the explicit written permission of the Licensor.
+
+  9.3 This Licence shall terminate with immediate effect if You fail
+      to comply with any of its material terms and conditions. However,
+      where You have carried out an act of infringement which was
+      committed through ignorance, and You subsequently comply with
+      this Licence, the rights may be reinstated with the explicit
+      permission of the Licensor.
+
+  9.4 This Licence does not, and shall not be interpreted to, limit or
+      restrict any moral rights held by the original author of the
+      Covered Source.
+
+  9.5 All Notices and any text incorporated by reference into this
+      Licence shall be deemed to form part of this Licence.
+
+---
+
+Copyright (C) 2026 Joshua Fleitell / dubpixel

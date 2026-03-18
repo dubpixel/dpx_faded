@@ -27,7 +27,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![CERN-OHL-S-2.0][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -239,7 +239,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-  Distributed under the UNLICENSE License. See `LICENSE.txt` for more information.
+  Distributed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2). See [`LICENSE`](LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -276,8 +276,8 @@ Don't forget to give the project a star! Thanks again!
 [stars-url]: https://github.com/dubpixel/dpx_faded/stargazers
 [issues-shield]: https://img.shields.io/github/issues/dubpixel/dpx_faded.svg?style=for-the-badge
 [issues-url]: https://github.com/dubpixel/dpx_faded/issues
-[license-shield]: https://img.shields.io/github/license/dubpixel/dpx_faded.svg?style=for-the-badge
-[license-url]: https://github.com/dubpixel/dpx_faded/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue?style=for-the-badge
+[license-url]: https://github.com/dubpixel/dpx_faded/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jfleitell
 [product-front]: images/front.png
